@@ -30,7 +30,7 @@ class Dog extends Mammal {
 }
 
 // Main class to test the implementation
-public class AnimalDemo { // Changed from Main to AnimalDemo
+public class AnimalDemo {
     public static void main(String[] args) {
         // Create an object of the concrete class
         Dog dog = new Dog();
