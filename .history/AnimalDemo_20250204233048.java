@@ -16,15 +16,28 @@ abstract class Mammal implements Animal {
 
 // Concrete Class: Provides full implementation
 class Dog extends Mammal {
-    // Implementing the abstract method from the Animal interface
-    @Override
-    public void makeSound() {
-        System.out.println("Woof! Woof!");
-    }
-
-    // Implementing the abstract method from the Mammal abstract class
+    // Implementing the abstract me // Implementing the abstract method from the Mammal abstract class
     @Override
     public void eat() {
         System.out.println("The dog is eating bones.");
     }
 }
+
+// Main class to test the implementation
+public class AnimalDemo {
+    public static void main(String[] args) {
+        // Create an object of the concrete class
+        Dog dog = new Dog();
+
+        // Call methods from the interface, abstract class, and concrete class
+        dog.makeSound(); // From Animal interface
+        dog.breathe();   // From Mammal abstract class
+        dog.eat();       // From Dog concrete class
+    }
+}thod from the Animal interface
+    @Override
+    public void makeSound() {
+        System.out.println("Woof! Woof!");
+    }
+
+   

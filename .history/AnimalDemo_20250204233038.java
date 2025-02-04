@@ -22,9 +22,4 @@ class Dog extends Mammal {
         System.out.println("Woof! Woof!");
     }
 
-    // Implementing the abstract method from the Mammal abstract class
-    @Override
-    public void eat() {
-        System.out.println("The dog is eating bones.");
-    }
-}
+   
